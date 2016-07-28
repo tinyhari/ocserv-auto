@@ -27,7 +27,7 @@ cd ${basepath}
 function ConfigEnvironmentVariable {
     # 变量设置
     # 单IP最大连接数，默认是2
-    maxsameclients=10
+    maxsameclients=128
     # 最大连接数，默认是16
     maxclients=1024
     # 服务器的证书和key文件，放在本脚本的同目录下，key文件的权限应该是600或者400
